@@ -1,0 +1,62 @@
+//
+//  PrefixHeader.pch
+//  YCAMusic
+//
+//  Created by yan on 16/3/14.
+//  Copyright © 2016年 yan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#pragma mark --- 屏幕宽高
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+#pragma mark --- 图片
+#define IMG(name) [UIImage imageNamed:name]
+
+
+//获取当前语言
+#define CurrentLanguage ([[NSLocale preferredLanguages] objectAtIndex:0])
+
+//判断设备的操做系统是不是ios7
+
+#define IOS_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
+#define CurrentSystemVersion [[UIDevice currentDevice] systemVersion]
+
+#define IOS7 ([[[UIDevice currentDevice].systemVersion doubleValue] >= 7.0]
+
+#define IOS8 ([[[UIDevice currentDevice].systemVersion doubleValue] >= 8.0]
+
+#define IOS9 ([[[UIDevice currentDevice].systemVersion doubleValue] >= 9.0]
+
+
+//NSUserDefaults 实例化
+#define USER_DEFAULT [NSUserDefaults standardUserDefaults]
+
+// nsnotificationcenter
+#define NOTIFICATIONCENTER [NSNotificationCenter defaultCenter]
+
+// 播放啦
+#define MUSICPLAY @"musicPlay"
+#define MUSICPAUSE @"musicPause"
+#define LOCALMUSICPLAY @"localMusicPlay"
+
+
+#define WeakSelf __weak typeof(self) weakSelf = self
+
+
+// 音乐本地url
+#define MUSIC_URL [[NSFileManager defaultManager] URLForDirectory:NSMusicDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:NO error:nil]
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define DLOG(...) NSLog(__VA_ARGS__);
+#define DLOG_METHOD NSLog(@"%s", __func__);
+#else
+#define DLOG(...); #define LOG_METHOD;
+
+#endif /* PrefixHeader_pch */

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C31AA471C9983CC0080A34F /* AnimationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C31AA461C9983CC0080A34F /* AnimationView.xib */; };
+		2C31AA4A1C9983ED0080A34F /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C31AA491C9983ED0080A34F /* AnimationView.m */; };
 		2C62503D1C96B4AC00B14301 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62503C1C96B4AC00B14301 /* main.m */; };
 		2C6250401C96B4AC00B14301 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62503F1C96B4AC00B14301 /* AppDelegate.m */; };
 		2C6250431C96B4AC00B14301 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6250421C96B4AC00B14301 /* ViewController.m */; };
@@ -15,6 +17,26 @@
 		2C62504B1C96B4AC00B14301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6250491C96B4AC00B14301 /* LaunchScreen.storyboard */; };
 		2C6250561C96B4AD00B14301 /* YCAMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6250551C96B4AD00B14301 /* YCAMusicTests.m */; };
 		2C6250611C96B4AD00B14301 /* YCAMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6250601C96B4AD00B14301 /* YCAMusicUITests.m */; };
+		2C83F28D1C9872AA00B2A632 /* MusicInfoList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C83F28C1C9872AA00B2A632 /* MusicInfoList.plist */; };
+		2C83F2911C98750F00B2A632 /* MusicListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C83F28F1C98750F00B2A632 /* MusicListTableViewCell.m */; };
+		2C83F2921C98750F00B2A632 /* MusicListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C83F2901C98750F00B2A632 /* MusicListTableViewCell.xib */; };
+		2C83F2951C98776800B2A632 /* MusicListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C83F2941C98776800B2A632 /* MusicListModel.m */; };
+		2C83F2981C987DEB00B2A632 /* YCAMusicPlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C83F2971C987DEB00B2A632 /* YCAMusicPlayerTool.m */; };
+		2CA913561C97140E0058E4B3 /* MusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA913551C97140E0058E4B3 /* MusicView.m */; };
+		2CA913581C97141E0058E4B3 /* MusicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA913571C97141E0058E4B3 /* MusicView.xib */; };
+		2CA913611C9729C00058E4B3 /* LocalMusicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA9135F1C9729C00058E4B3 /* LocalMusicTableViewController.m */; };
+		2CA913621C9729C00058E4B3 /* LocalMusicTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA913601C9729C00058E4B3 /* LocalMusicTableViewController.xib */; };
+		2CA913661C972A2C0058E4B3 /* LocalMusicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA913641C972A2C0058E4B3 /* LocalMusicTableViewCell.m */; };
+		2CA913671C972A2C0058E4B3 /* LocalMusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA913651C972A2C0058E4B3 /* LocalMusicTableViewCell.xib */; };
+		2CA9136B1C972BB80058E4B3 /* NetWorkMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA913691C972BB80058E4B3 /* NetWorkMusicViewController.m */; };
+		2CA9136C1C972BB80058E4B3 /* NetWorkMusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA9136A1C972BB80058E4B3 /* NetWorkMusicViewController.xib */; };
+		2CA913701C972BC70058E4B3 /* RankMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA9136E1C972BC70058E4B3 /* RankMusicViewController.m */; };
+		2CA913711C972BC70058E4B3 /* RankMusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA9136F1C972BC70058E4B3 /* RankMusicViewController.xib */; };
+		2CE5D7801C9D9C5B003859DF /* localMusicListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5D77F1C9D9C5B003859DF /* localMusicListModel.m */; };
+		2CED28541CA05CBA00F96AE7 /* YCACircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CED28531CA05CBA00F96AE7 /* YCACircleView.m */; };
+		2CFF04981C96DC0A0007663B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFF04971C96DC0A0007663B /* HomeViewController.m */; };
+		2CFF049C1C96E34B0007663B /* money.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CFF049B1C96E34B0007663B /* money.png */; };
+		BA55D9EC0982E9421AB79D01 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D554A05FE1F75F48AD409629 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C31AA461C9983CC0080A34F /* AnimationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationView.xib; sourceTree = "<group>"; };
+		2C31AA481C9983ED0080A34F /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		2C31AA491C9983ED0080A34F /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
 		2C6250381C96B4AC00B14301 /* YCAMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCAMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C62503C1C96B4AC00B14301 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C62503E1C96B4AC00B14301 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +76,40 @@
 		2C62505C1C96B4AD00B14301 /* YCAMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCAMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6250601C96B4AD00B14301 /* YCAMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCAMusicUITests.m; sourceTree = "<group>"; };
 		2C6250621C96B4AD00B14301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C83F28C1C9872AA00B2A632 /* MusicInfoList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MusicInfoList.plist; sourceTree = "<group>"; };
+		2C83F28E1C98750F00B2A632 /* MusicListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListTableViewCell.h; sourceTree = "<group>"; };
+		2C83F28F1C98750F00B2A632 /* MusicListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListTableViewCell.m; sourceTree = "<group>"; };
+		2C83F2901C98750F00B2A632 /* MusicListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicListTableViewCell.xib; sourceTree = "<group>"; };
+		2C83F2931C98776800B2A632 /* MusicListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListModel.h; sourceTree = "<group>"; };
+		2C83F2941C98776800B2A632 /* MusicListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListModel.m; sourceTree = "<group>"; };
+		2C83F2961C987DEB00B2A632 /* YCAMusicPlayerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCAMusicPlayerTool.h; sourceTree = "<group>"; };
+		2C83F2971C987DEB00B2A632 /* YCAMusicPlayerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCAMusicPlayerTool.m; sourceTree = "<group>"; };
+		2CA913541C97140E0058E4B3 /* MusicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicView.h; sourceTree = "<group>"; };
+		2CA913551C97140E0058E4B3 /* MusicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicView.m; sourceTree = "<group>"; };
+		2CA913571C97141E0058E4B3 /* MusicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicView.xib; sourceTree = "<group>"; };
+		2CA9135E1C9729C00058E4B3 /* LocalMusicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalMusicTableViewController.h; sourceTree = "<group>"; };
+		2CA9135F1C9729C00058E4B3 /* LocalMusicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalMusicTableViewController.m; sourceTree = "<group>"; };
+		2CA913601C9729C00058E4B3 /* LocalMusicTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocalMusicTableViewController.xib; sourceTree = "<group>"; };
+		2CA913631C972A2C0058E4B3 /* LocalMusicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalMusicTableViewCell.h; sourceTree = "<group>"; };
+		2CA913641C972A2C0058E4B3 /* LocalMusicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalMusicTableViewCell.m; sourceTree = "<group>"; };
+		2CA913651C972A2C0058E4B3 /* LocalMusicTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocalMusicTableViewCell.xib; sourceTree = "<group>"; };
+		2CA913681C972BB80058E4B3 /* NetWorkMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkMusicViewController.h; sourceTree = "<group>"; };
+		2CA913691C972BB80058E4B3 /* NetWorkMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkMusicViewController.m; sourceTree = "<group>"; };
+		2CA9136A1C972BB80058E4B3 /* NetWorkMusicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetWorkMusicViewController.xib; sourceTree = "<group>"; };
+		2CA9136D1C972BC70058E4B3 /* RankMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankMusicViewController.h; sourceTree = "<group>"; };
+		2CA9136E1C972BC70058E4B3 /* RankMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankMusicViewController.m; sourceTree = "<group>"; };
+		2CA9136F1C972BC70058E4B3 /* RankMusicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RankMusicViewController.xib; sourceTree = "<group>"; };
+		2CE5D77E1C9D9C5B003859DF /* localMusicListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = localMusicListModel.h; sourceTree = "<group>"; };
+		2CE5D77F1C9D9C5B003859DF /* localMusicListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = localMusicListModel.m; sourceTree = "<group>"; };
+		2CED28521CA05CBA00F96AE7 /* YCACircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCACircleView.h; sourceTree = "<group>"; };
+		2CED28531CA05CBA00F96AE7 /* YCACircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCACircleView.m; sourceTree = "<group>"; };
+		2CFF04961C96DC0A0007663B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2CFF04971C96DC0A0007663B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2CFF04991C96DD080007663B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2CFF049B1C96E34B0007663B /* money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money.png; sourceTree = "<group>"; };
+		5236D8320DF88D260F161CFC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A2DAFE256FE31E01854F95B8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D554A05FE1F75F48AD409629 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA55D9EC0982E9421AB79D01 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +138,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		035162A8D6A2D40594990237 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2DAFE256FE31E01854F95B8 /* Pods.debug.xcconfig */,
+				5236D8320DF88D260F161CFC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2C62502F1C96B4AC00B14301 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +154,8 @@
 				2C6250541C96B4AD00B14301 /* YCAMusicTests */,
 				2C62505F1C96B4AD00B14301 /* YCAMusicUITests */,
 				2C6250391C96B4AC00B14301 /* Products */,
+				035162A8D6A2D40594990237 /* Pods */,
+				4927E1706BCE8FE0D14B9B54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +172,11 @@
 		2C62503A1C96B4AC00B14301 /* YCAMusic */ = {
 			isa = PBXGroup;
 			children = (
+				2CFF049A1C96E3310007663B /* Resource */,
+				2CFF04951C96DBDE0007663B /* Tool */,
+				2CFF04941C96DBD70007663B /* View */,
+				2CFF04931C96DBC90007663B /* Model */,
+				2CFF04921C96DBB60007663B /* VC */,
 				2C62503E1C96B4AC00B14301 /* AppDelegate.h */,
 				2C62503F1C96B4AC00B14301 /* AppDelegate.m */,
 				2C6250411C96B4AC00B14301 /* ViewController.h */,
@@ -118,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				2C62503C1C96B4AC00B14301 /* main.m */,
+				2CFF04991C96DD080007663B /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +217,82 @@
 			path = YCAMusicUITests;
 			sourceTree = "<group>";
 		};
+		2CFF04921C96DBB60007663B /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				2CFF04961C96DC0A0007663B /* HomeViewController.h */,
+				2CFF04971C96DC0A0007663B /* HomeViewController.m */,
+				2CA9135E1C9729C00058E4B3 /* LocalMusicTableViewController.h */,
+				2CA9135F1C9729C00058E4B3 /* LocalMusicTableViewController.m */,
+				2CA913601C9729C00058E4B3 /* LocalMusicTableViewController.xib */,
+				2CA913681C972BB80058E4B3 /* NetWorkMusicViewController.h */,
+				2CA913691C972BB80058E4B3 /* NetWorkMusicViewController.m */,
+				2CA9136A1C972BB80058E4B3 /* NetWorkMusicViewController.xib */,
+				2CA9136D1C972BC70058E4B3 /* RankMusicViewController.h */,
+				2CA9136E1C972BC70058E4B3 /* RankMusicViewController.m */,
+				2CA9136F1C972BC70058E4B3 /* RankMusicViewController.xib */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		2CFF04931C96DBC90007663B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C83F2931C98776800B2A632 /* MusicListModel.h */,
+				2C83F2941C98776800B2A632 /* MusicListModel.m */,
+				2CE5D77E1C9D9C5B003859DF /* localMusicListModel.h */,
+				2CE5D77F1C9D9C5B003859DF /* localMusicListModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2CFF04941C96DBD70007663B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2CA913541C97140E0058E4B3 /* MusicView.h */,
+				2CA913551C97140E0058E4B3 /* MusicView.m */,
+				2CA913571C97141E0058E4B3 /* MusicView.xib */,
+				2CA913631C972A2C0058E4B3 /* LocalMusicTableViewCell.h */,
+				2CA913641C972A2C0058E4B3 /* LocalMusicTableViewCell.m */,
+				2CA913651C972A2C0058E4B3 /* LocalMusicTableViewCell.xib */,
+				2C83F28E1C98750F00B2A632 /* MusicListTableViewCell.h */,
+				2C83F28F1C98750F00B2A632 /* MusicListTableViewCell.m */,
+				2C83F2901C98750F00B2A632 /* MusicListTableViewCell.xib */,
+				2C31AA461C9983CC0080A34F /* AnimationView.xib */,
+				2C31AA481C9983ED0080A34F /* AnimationView.h */,
+				2C31AA491C9983ED0080A34F /* AnimationView.m */,
+				2CED28521CA05CBA00F96AE7 /* YCACircleView.h */,
+				2CED28531CA05CBA00F96AE7 /* YCACircleView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2CFF04951C96DBDE0007663B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2C83F2961C987DEB00B2A632 /* YCAMusicPlayerTool.h */,
+				2C83F2971C987DEB00B2A632 /* YCAMusicPlayerTool.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		2CFF049A1C96E3310007663B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2C83F28C1C9872AA00B2A632 /* MusicInfoList.plist */,
+				2CFF049B1C96E34B0007663B /* money.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		4927E1706BCE8FE0D14B9B54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D554A05FE1F75F48AD409629 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +300,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C6250651C96B4AD00B14301 /* Build configuration list for PBXNativeTarget "YCAMusic" */;
 			buildPhases = (
+				2391AD6BA62D50D38E895C69 /* Check Pods Manifest.lock */,
 				2C6250341C96B4AC00B14301 /* Sources */,
 				2C6250351C96B4AC00B14301 /* Frameworks */,
 				2C6250361C96B4AC00B14301 /* Resources */,
+				24505D78E3C266114A8FBD2C /* Embed Pods Frameworks */,
+				024AE3554962D8CA67871558 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +363,7 @@
 				TargetAttributes = {
 					2C6250371C96B4AC00B14301 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2U3RPF8KA3;
 					};
 					2C6250501C96B4AD00B14301 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -243,9 +400,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFF049C1C96E34B0007663B /* money.png in Resources */,
+				2CA9136C1C972BB80058E4B3 /* NetWorkMusicViewController.xib in Resources */,
+				2C83F28D1C9872AA00B2A632 /* MusicInfoList.plist in Resources */,
 				2C62504B1C96B4AC00B14301 /* LaunchScreen.storyboard in Resources */,
 				2C6250481C96B4AC00B14301 /* Assets.xcassets in Resources */,
+				2C31AA471C9983CC0080A34F /* AnimationView.xib in Resources */,
+				2CA913671C972A2C0058E4B3 /* LocalMusicTableViewCell.xib in Resources */,
+				2CA913711C972BC70058E4B3 /* RankMusicViewController.xib in Resources */,
+				2CA913621C9729C00058E4B3 /* LocalMusicTableViewController.xib in Resources */,
+				2C83F2921C98750F00B2A632 /* MusicListTableViewCell.xib in Resources */,
 				2C6250461C96B4AC00B14301 /* Main.storyboard in Resources */,
+				2CA913581C97141E0058E4B3 /* MusicView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +431,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		024AE3554962D8CA67871558 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2391AD6BA62D50D38E895C69 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		24505D78E3C266114A8FBD2C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C6250341C96B4AC00B14301 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C83F2981C987DEB00B2A632 /* YCAMusicPlayerTool.m in Sources */,
+				2CA913661C972A2C0058E4B3 /* LocalMusicTableViewCell.m in Sources */,
+				2CA9136B1C972BB80058E4B3 /* NetWorkMusicViewController.m in Sources */,
 				2C6250431C96B4AC00B14301 /* ViewController.m in Sources */,
+				2C83F2911C98750F00B2A632 /* MusicListTableViewCell.m in Sources */,
+				2CED28541CA05CBA00F96AE7 /* YCACircleView.m in Sources */,
+				2CA913701C972BC70058E4B3 /* RankMusicViewController.m in Sources */,
 				2C6250401C96B4AC00B14301 /* AppDelegate.m in Sources */,
+				2C83F2951C98776800B2A632 /* MusicListModel.m in Sources */,
 				2C62503D1C96B4AC00B14301 /* main.m in Sources */,
+				2CFF04981C96DC0A0007663B /* HomeViewController.m in Sources */,
+				2CA913561C97140E0058E4B3 /* MusicView.m in Sources */,
+				2CE5D7801C9D9C5B003859DF /* localMusicListModel.m in Sources */,
+				2C31AA4A1C9983ED0080A34F /* AnimationView.m in Sources */,
+				2CA913611C9729C00058E4B3 /* LocalMusicTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +570,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -388,7 +615,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -411,23 +639,39 @@
 		};
 		2C6250661C96B4AD00B14301 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2DAFE256FE31E01854F95B8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/yan/Desktop/MyApp/YCAMusic/YCAMusic/PrefixHeader.pch;
 				INFOPLIST_FILE = YCAMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yca.YCAMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		2C6250671C96B4AD00B14301 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5236D8320DF88D260F161CFC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/yan/Desktop/MyApp/YCAMusic/YCAMusic/PrefixHeader.pch;
 				INFOPLIST_FILE = YCAMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yca.YCAMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
@@ -498,6 +742,7 @@
 				2C6250671C96B4AD00B14301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C6250681C96B4AD00B14301 /* Build configuration list for PBXNativeTarget "YCAMusicTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +751,7 @@
 				2C62506A1C96B4AD00B14301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C62506B1C96B4AD00B14301 /* Build configuration list for PBXNativeTarget "YCAMusicUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +760,7 @@
 				2C62506D1C96B4AD00B14301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
